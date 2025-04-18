@@ -1242,9 +1242,297 @@ const quizData = {
     },
   ],
   // <!-------------------------------------------- WEEK 11---------------------------------------------------------->
-  "Week 11": [],
+  "Week 11": [{
+    question: "Which among the following is the most probable application scenario for a smart grid?",
+    options: [
+      "a. Home automation",
+      "b. Hospital networks",
+      "c. Intelligent power plants",
+      "d. Crop monitoring",
+    ],
+    answer: "c. Intelligent power plants",
+  },
+  {
+    question: "With respect to a smart grid, which stakeholders are potentially benefitted?",
+    options: [
+      "a. Energy Service providers",
+      "b. Energy consumers/customers",
+      "c. Both energy service provides and consumers",
+      "d. Neither energy service providers nor consumers.",
+    ],
+    answer: "c. Both energy service provides and consumers",
+  },
+  {
+    question: "It is not possible to perform load forecasting using a smart grid.",
+    options: [
+      "a. True",
+      "b. False",
+    ],
+    answer: "b. False",
+  },
+  {
+    question: "With respect to the following Smart Grid architecture, which among the following is the most probable utility of the IP network?",
+    options: [
+      "a. IP network has no utility",
+      "b. IP network is used to connect smart grid components globally for seamless data transfer",
+      "c. IP network is used for multimedia video streaming only",
+      "d. IP network is used to induce more congestion",
+    ],
+    answer: "b. IP network is used to connect smart grid components globally for seamless data transfer",
+  },
+  {
+    question: "Smart Home is an isolated concept and is not integrable with smart grid?",
+    options: [
+      "a. False",
+      "b. True",
+    ],
+    answer: "a. False",
+  },
+  {
+    question: "Which of the following is a cloud application of smart grid?",
+    options: [
+      "a) Information management",
+      "b) Energy management",
+      "c) Security",
+      "d) All of these",
+    ],
+    answer: "d) All of these",
+  },
+  {
+    question: "Which of the following is not a vulnerability of Smart Grid?",
+    options: [
+      "a) Integrity",
+      "b) Physical threats",
+      "c) Dynamic system attacks",
+      "d) None of these",
+    ],
+    answer: "d) None of these",
+  },
+  {
+    question: "IIoT corresponds to which industrial revolution?",
+    options: [
+      "a. 1st",
+      "b. 2nd",
+      "c. 3rd",
+      "d. 4th",
+    ],
+    answer: "d. 4th",
+  },
+  {
+    question: "IIoT is inherently data intensive.",
+    options: [
+      "a. Yes",
+      "b. No",
+    ],
+    answer: "a. Yes",
+  },
+  {
+    question: "Which among the following is one of the requirements and utility of IIoT?",
+    options: [
+      "a. Power plant interruption",
+      "b. Power plant virtualization",
+      "c. Power plant decentralization",
+      "d. Power plant denotification",
+    ],
+    answer: "b. Power plant virtualization",
+  },
+  {
+    question: "Smart Grid follows which type of flow of energy?",
+    options: [
+      "a. Bidirectional",
+      "b. Unidirectional",
+      "c. Both a and b",
+      "d. Neither a nor b",
+    ],
+    answer: "a. Bidirectional",
+  },
+  {
+    question: "What is the Flow of data?",
+    options: [
+      "a. Acquisition > Generation > Storage > Analysis",
+      "b. Generation > Storage > Analysis > Acquisition",
+      "c. Generation > Acquisition > Storage > Analysis",
+      "d. None of these",
+    ],
+    answer: "c. Generation > Acquisition > Storage > Analysis",
+  },
+  {
+    question: "Intelligent transport system is least likely to render which of the following connectivity?",
+    options: [
+      "a. Vehicle-to-vehicle connectivity",
+      "b. Vehicle-to-sensor connectivity",
+      "c. Vehicle-to-road infrastructure",
+      "d. Vehicle-to-home connectivity",
+    ],
+    answer: "d. Vehicle-to-home connectivity",
+  },
+  {
+    question: "Approximately around ________ of the total data available currently in the world is unstructured.",
+    options: [
+      "a. 20 %",
+      "b. 40 %",
+      "c. 60 %",
+      "d. 80 %",
+    ],
+    answer: "d. 80 %",
+  },
+  {
+    question: "SQL manages ________________ data.",
+    options: [
+      "a) Unstructured",
+      "b) Corrupt",
+      "c) Structured",
+      "d) Non-organized",
+    ],
+    answer: "c) Structured",
+  },
+  ],
   // <!-------------------------------------------- WEEK 12---------------------------------------------------------->
-  "Week 12": [],
+  "Week 12": [{
+    question: "Qualitative analysis refers to the process by which numerical data is analyzed?",
+    options: [
+      "a. True",
+      "b. False",
+    ],
+    answer: "b. False",
+  },
+  {
+    question: "Which of the following data analysis technique involve the use of study of difference of variance?",
+    options: [
+      "a. ARIMA",
+      "b. ANOVA",
+      "c. DNN",
+      "d. OpenFlow",
+    ],
+    answer: "b. ANOVA",
+  },
+  {
+    question: "Given that you have an independent variable and that you want to predict the dependent variable based on the relationship between the two variables. Which among the following technique would you use?",
+    options: [
+      "a. ANOVA",
+      "b. ARIMA",
+      "c. Regression Analysis",
+      "d. Pre-analysis",
+    ],
+    answer: "c. Regression Analysis",
+  },
+  {
+    question: "With respect to AgriSens, how many logical layers are there in its architecture?",
+    options: [
+      "a. Perception Layer",
+      "b. Processing Layer",
+      "c. Application Layer",
+      "d. All of the given",
+    ],
+    answer: "d. All of the given",
+  },
+  {
+    question: "AgriSens supports real-time monitoring of soil moisture conditions and instant reporting to a dashboard.",
+    options: [
+      "a. False",
+      "b. True",
+    ],
+    answer: "b. True",
+  },
+  {
+    question: "What is the data aggregator is also known as in the context of IoT in smart healthcare?",
+    options: [
+      "a) CPU",
+      "b) LPU",
+      "c) APU",
+      "d) PPU",
+    ],
+    answer: "b) LPU",
+  },
+  {
+    question: "The effect size for determining statistical significance is the standardized _________ difference between two groups.",
+    options: [
+      "a. Median",
+      "b. Mean",
+      "c. Inter quartile range",
+      "d. None of the above",
+    ],
+    answer: "b. Mean",
+  },
+  {
+    question: "Processing the sensed data on the device itself is known as __________ approach.",
+    options: [
+      "a. Network based",
+      "b. In-place",
+      "c. Out of the place",
+      "d. None of these",
+    ],
+    answer: "b. In-place",
+  },
+  {
+    question: "Processing the handheld activity device data with artificial intelligence can be used for ________.",
+    options: [
+      "a. Fall detection",
+      "b. Heart rate detection",
+      "c. Vehicle detection",
+      "d. All of these",
+    ],
+    answer: "a. Fall detection",
+  },
+  {
+    question: "Which of the following is an assumption of ANOVA?",
+    options: [
+      "a) Homogeneity of variances",
+      "b) Normally distributed response variable",
+      "c) Independence of observations",
+      "d. All of these",
+    ],
+    answer: "d. All of these",
+  },
+  {
+    question: "Select the statement(s) that denote the type of ANOVA.\n\n\t Statement I: One way analysis\n\t Statement II: Two way analysis\n\t Statement III: K-way analysis",
+    options: [
+      "a. Statement I",
+      "b. Statement II",
+      "c. Statements I, II, and III",
+      "d. None of these",
+    ],
+    answer: "c. Statements I, II, and III",
+  },
+  {
+    question: "AmbuSense is a privacy-aware system",
+    options: [
+      "a. True",
+      "b. False",
+    ],
+    answer: "a. True",
+  },
+  {
+    question: "The two most relevant sensors directly used in agriculture are __________.",
+    options: [
+      "a. Soil moisture and ECG sensor",
+      "b. Soil moisture and water level sensor",
+      "c. ECG sensor and water level sensor",
+      "d. All of these",
+    ],
+    answer: "b. Soil moisture and water level sensor",
+  },
+  {
+    question: "Examples of dispersion measures include _______ and ______.",
+    options: [
+      "a. Discrete, categorical",
+      "b. Continuous, quantitative",
+      "c. Discrete, quantitative",
+      "d. Range, Variance",
+    ],
+    answer: "d. Range, Variance",
+  },
+  {
+    question: "Suppose that your smartphone tilts by an angle of 15 degrees. Which among the following sensors will detect this tilt?",
+    options: [
+      "a) HC-SR04",
+      "b) Gyroscope",
+      "c) Accelerometer",
+      "d) Monometer",
+    ],
+    answer: "b) Gyroscope",
+  },
+  ],
 };
 
 const weekList = document.getElementById("weekList");
